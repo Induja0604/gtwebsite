@@ -1,0 +1,110 @@
+
+
+  
+.webpage1-left, .webpage1-right {
+    flex-direction: column;
+    border-radius: 8px;
+    margin-left: 90px;
+    
+  }
+  /* Heading styles */
+  .webdev-h1 {
+    font-size: 32px;
+    font-weight: bold;
+    
+    text-align: center;
+  }
+  .webdev-span {
+    font-weight: bold;
+    margin-left: 180px;
+  }
+  .webdev-p {
+    line-height: 1.6;
+    margin-left: 180px;
+  }
+  
+  .webdev-h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 190px;
+    
+  }
+  .webdev-h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-right: 250px;
+  }
+
+  .webdev-list{
+
+    margin-left: 180px;
+  }
+ .list1{
+    margin-bottom: 0px; 
+    margin-right: 200px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .left-section, .right-section {
+   
+      width: 100%;
+    }
+  }
+  .big-container {
+    display: flex;
+   gap:25px;
+   align-items: center;
+   justify-content: center;
+    background-color:#053E56;/* Background color for the big container */
+    height: 400px;
+  }
+  
+ .centered-div {                         
+    flex-direction: column;
+   height: 300px;
+   width: 500px;    
+    background-color: white;
+    border-radius: 10px;
+  }
+.right-div{
+  font-family:sans-serif;
+  margin-left: 20px;
+}
+.right-list{
+  margin-left: 20px;
+  letter-spacing: 0.6px;
+  line-height: 1.9em;
+}
+.curriculum-container {
+  margin-top: 20px;
+}
+
+.curriculum-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.curriculum-content {
+  display: none;
+  margin-top: 10px;
+}
+
+.curriculum-content.show {
+  display: block;
+}
+
+.plus-icon {
+  margin-left: auto;
+  font-size: 1.5rem;
+}
+  
+ 
+  

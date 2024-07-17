@@ -1,0 +1,35 @@
+.advertisement-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 250px; 
+  left: 20px;
+  width: 20%;
+  height: 78vh;
+  overflow: hidden;
+  
+}
+
+.advertisement-image {
+  width: 100%;
+  height: 78vh;  
+}
+
+.blink {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.close-button1 {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.close-button1:hover {
+  color: black;
+}

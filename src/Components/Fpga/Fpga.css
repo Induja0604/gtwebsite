@@ -1,0 +1,125 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+} 
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Heading1 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 0;
+    margin-left: 70px;
+  }
+  
+  .Heading2 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  
+  .rating {
+    color: #f0ad4e;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+  
+  .Details {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-left: 70px;
+    letter-spacing: 0.6px;
+    line-height: 1.9em;
+  }
+  .points{
+    margin-left: 60px;
+    letter-spacing: 0.6px;
+    line-height: 1.8em;
+  }
+  .icons-section {
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+  }
+  
+  .icon-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .icon-item i {
+    font-size: 2rem;
+    color: #053E56;;
+    margin-right: 10px;
+   
+  }
+  
+  .icon-item p {
+    font-size: 1rem;
+    color: #333;
+    font-size: larger;
+    font-family:sans-serif;
+  }
+  
+  /* .course-image {
+    text-align: center;
+    margin-top: 90px;
+  } */
+  
+  .courseimage-fpga img {
+    max-width: 90%;
+    height: 45vh;
+    border-radius: 8px;
+   
+  }
+  
+  .buttons1 {
+    margin-top: 20px;
+    margin-top: 150px;
+  }
+
+.buttons1 .btn1 {
+  display: inline-block;
+  padding: 15px 30px; 
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: black;
+  background: linear-gradient(90deg, #b7e650, #addc8f);
+  border: none;
+  border-radius: 20px; 
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; 
+  
+}
+
+.buttons1 .btn1:hover {
+  background: linear-gradient(90deg, #d3dc4a, #9be284);
+  box-shadow: 0 6px 8px rgba(183, 219, 106, 0.15); 
+  transform: translateY(-2px); 
+}
+
+.buttons1 .btn1:active {
+  background: linear-gradient(90deg, #9be284, #d3dc4a);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transform: translateY(0);
+}

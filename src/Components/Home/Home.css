@@ -1,0 +1,149 @@
+.hero {
+    background: linear-gradient(135deg, #e0eec8, rgb(204, 237, 245));
+    height: 80vh;
+    display: flex;
+  }
+  
+  .hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 160px;
+    line-height: 1.1;
+  }
+  
+  .hero-left h2 {
+    color: black;
+    font-size: 26px;
+    font-weight: 900;
+    
+  }
+  
+  .hero-left p {
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.6;
+    text-align: left;
+  }
+  
+  .hand-hand-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hand-hand-icon img {
+    width: 105px;
+  }
+  
+  .hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #bae973;
+    color: black;
+    font-size: 220x;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 600px;
+    height: 600px;
+    margin-right: 70px;
+    border-radius: 8px;
+  }
+  @media (max-width: 1200px) {
+    .hero {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero-left {
+      padding-left: 80px;
+      padding-right: 80px;
+      text-align: center;
+    }
+  
+    .hero-left h2 {
+      font-size: 22px;
+    }
+  
+    .hero-left p {
+      font-size: 20px;
+    }
+  
+    .hero-latest-btn {
+      width: 250px;
+      height: 60px;
+    }
+  
+    .hero-right video {
+      width: 500px;
+      height: 500px;
+      margin-right: 0;
+      margin-top: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-left {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    .hero-left h2 {
+      font-size: 20px;
+    }
+  
+    .hero-left p {
+      font-size: 18px;
+    }
+  
+    .hero-latest-btn {
+      width: 200px;
+      height: 50px;
+    }
+  
+    .hero-right video {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-left {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .hero-left h2 {
+      font-size: 18px;
+    }
+  
+    .hero-left p {
+      font-size: 16px;
+    }
+  
+    .hero-latest-btn {
+      width: 180px;
+      height: 45px;
+    }
+  
+    .hero-right video {
+      width: 300px;
+      height: 300px;
+    }
+  }
+    

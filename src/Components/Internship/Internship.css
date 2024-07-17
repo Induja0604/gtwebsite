@@ -1,0 +1,108 @@
+.internship h1 {
+    text-align: center;
+  }
+  
+  .internshipp {
+    font-size: 20px;
+    opacity: 0.7;
+  }
+  
+  .internshipflex {
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+  }
+  
+  .internshipflexbox {
+    flex-direction: column;
+    margin-left: 20px;
+    width: 700px;
+    height: 500px;
+    cursor: pointer;
+  }
+  
+  .internshipflexbox h3 {
+    text-align: center;
+  }
+  
+  .hardwareflex {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+  }
+  
+  .hardwareflexbox {
+    flex-direction: column;
+    margin-left: 20px;
+    width: 300px;
+    height: 350px;
+  }
+  
+  .hardwareflexbox img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .hardwareflexbox p {
+    margin-left: 10px;
+  }
+  
+  .internshipflexbox:hover {
+    box-shadow: 10px 0 10px 0 #1d5863;
+  }
+  @media (max-width: 1024px) {
+    .internshipflex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .internshipflexbox {
+      width: 100%;
+      height: auto;
+    }
+  
+    .hardwareflex {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .hardwareflexbox {
+      width: 45%;
+      height: auto;
+    }
+  
+    .hardwareflexbox img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .internshipflexbox {
+      margin-left: 0;
+    }
+  
+    .hardwareflexbox {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .internship h1 {
+      font-size: 24px;
+    }
+  
+    .internshipp {
+      font-size: 16px;
+    }
+  
+    .hardwareflexbox {
+      width: 100%;
+      height: auto;
+    }
+  
+    .hardwareflexbox img {
+      height: 150px;
+    }
+  }
+    

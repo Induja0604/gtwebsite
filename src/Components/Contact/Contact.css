@@ -1,0 +1,53 @@
+.contactflex{
+    display: flex;
+    gap :15px;
+}
+.contactflexbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.contactflexbox p{
+   margin-right: 200px;
+}
+.contactflexbox2{
+    display: flex;
+    flex-direction: column;
+      height: 550px;
+      width: 400px;
+      margin-left: 250px;
+      margin-top: 100px;
+      background-color: #1d5863;
+      color: white;
+      text-align: center;
+  
+}
+.contactflexbox2 p{
+    text-align: center;
+}
+.contact-feilds{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    margin-top: 30px;
+}
+.contact-feilds input{
+    height: 52px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color:#5c5c5c;
+    font-size: 18px;
+}
+.contact-feilds button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background-color:#1d5863;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}

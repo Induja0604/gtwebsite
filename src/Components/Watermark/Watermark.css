@@ -1,0 +1,36 @@
+.watermark {
+    position: fixed;
+    bottom: -30px;
+    left: -32px;
+    font-size: 40rem;
+    color: rgba(172, 172, 172, 0.1);
+    transform: rotate(-25deg);
+    pointer-events: none;
+    z-index: 9999;
+    user-select: none;
+    white-space: nowrap;
+  }
+  @media (max-width: 1200px) {
+    .watermark {
+      font-size: 35rem;
+      bottom: -25px;
+      left: -28px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .watermark {
+      font-size: 30rem;
+      bottom: -20px;
+      left: -24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .watermark {
+      font-size: 25rem;
+      bottom: -15px;
+      left: -20px;
+    }
+  }
+  

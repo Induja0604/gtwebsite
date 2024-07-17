@@ -1,0 +1,119 @@
+.training h1,p{
+    text-align: center;
+}
+.training p{
+    font-size: 20px;
+    opacity: 0.7;
+}
+.traininggrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    grid-gap: 2rem;
+
+}
+.traininggridbox{
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.traininggridbox:hover{
+    box-shadow: 10px 0 10px 0 #1d5863;
+}
+.traininggridbox img{
+    width: 50%;
+    height: 23vh;
+    margin: 10px;
+    border-radius: 5px;
+}
+.traininggridbox {
+    display: flex;
+}
+.traininggridbox {
+  font-size: 20px;
+}
+.trainingbutton{
+    padding: 20px;
+    border-radius: 25px;
+   background:#bae973;
+    cursor: pointer;
+    margin-top: 120px;
+    margin-left: 23%;
+    position: absolute;
+    opacity: 0.7;
+    font-size: 16px;
+}
+@media (max-width: 1024px) {
+    .traininggrid {
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+  
+    .traininggridbox {
+      height: 180px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .traininggridbox img {
+      height: 20vh;
+    }
+  
+    .trainingbutton {
+      padding: 15px;
+      margin-top: 100px;
+      margin-left: 20%;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .traininggrid {
+      grid-template-columns: 1fr;
+    }
+  
+    .traininggridbox {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
+  
+    .traininggridbox img {
+      width: 80%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  
+    .trainingbutton {
+      position: static;
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .training h1 {
+      font-size: 24px;
+    }
+  
+    .training p {
+      font-size: 16px;
+    }
+  
+    .traininggridbox {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .traininggridbox img {
+      width: 100%;
+    }
+  
+    .trainingbutton {
+      padding: 12px;
+      font-size: 12px;
+    }
+  }
+  
